@@ -34,7 +34,6 @@
         shadowMoveInterval.value = setInterval(()=>{
             for(let i = 0; i<shadowPosArray.value.length; i++){
                 if(shadowPosArray.value[i] > maxShadowPos ){
-                    console.log(`${i}커짐`)
                     shadowDirectionArray.value[i] = 'left'
                 }
                 else if(shadowPosArray.value[i] < minShadowPos ){
